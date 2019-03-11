@@ -17,6 +17,9 @@ const sourceObject = {
 
 // Your code :
 
+function get (object){
+  return sourceObject[object];
+}
 //* Begin of tests
 const assert = require('assert')
 
