@@ -19,9 +19,8 @@ function multiply(a,b){
     for(let i=0; i<-b; i++){  
         result = a + result
     }
-
     return -result}
-   else{
+    else{
         for(let i=0; i<b; i++){  
             result = a + result
         }
